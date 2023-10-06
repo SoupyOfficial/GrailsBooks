@@ -1,4 +1,17 @@
 ---
+server:
+    port: 8090
+
+rabbitmq:
+    connections:
+        - name: some-rabbit
+          host: localhost
+          port: 5672
+          username: guest
+          password: guest
+    queues:
+        - name: bookQueue
+
 grails:
     profile: rest-api
     codegen:

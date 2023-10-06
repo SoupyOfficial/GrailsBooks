@@ -98,6 +98,16 @@ dataSource:
     username: sa
     password: ''
 
+rabbitmq:
+    connections:
+        - name: some-rabbit
+          host: localhost
+          port: 5672
+          username: guest
+          password: guest
+    queues:
+        - name: bookQueue
+
 environments:
     development:
         dataSource:

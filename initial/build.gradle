@@ -30,6 +30,7 @@ repositories {
 }
 
 dependencies {
+    compile "org.grails.plugins:rabbitmq-native:3.4.4"
     compile "org.springframework.boot:spring-boot-starter-logging"
     compile "org.springframework.boot:spring-boot-autoconfigure"
     compile "org.grails:grails-core"

@@ -1,0 +1,6 @@
+2023-10-06 15:36:01 jdbc[7]: exception
+org.h2.jdbc.JdbcSQLException: Table "BOOK" not found; SQL statement:
+insert into book (id, version, about, title, image, href, author) values (null, ?, ?, ?, ?, ?, ?) [42102-196]
+2023-10-06 15:36:01 jdbc[7]: exception
+org.h2.jdbc.JdbcSQLException: Table "BOOK" not found; SQL statement:
+insert into book (id, version, about, title, image, href, author) values (null, ?, ?, ?, ?, ?, ?) [42102-196]
